@@ -1,0 +1,69 @@
+<!-- 
+    contact.html
+    Claudia Slater (zsl238)
+    CS4413-002 Lab #5
+    9/21/2023
+ -->
+<html>
+    <head>
+        <title>Lab 3: Contact</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <a href="index.html" id="page_3_back_link">Back</a>
+        <br/>
+        <hr/>
+        <div id="form_box">
+            <table id="contact_table">
+                <form id="contact_form" action="./save_contact.php" method="GET">
+                    <tr id="contacts_row_1">
+                        <th></th>
+                        <th id="contacts_header">Contact Form</th>
+                    </tr>
+                    <tr id="contacts_row_2">
+                        <th>
+                            <label>Full Name:</label>
+                        </th> 
+                        <td>
+                            <input type="text" name="full_name">
+                        </td>
+                    </tr>
+                    <tr id="contacts_row_3">
+                        <th>
+                            <label>Email Address:</label>
+                        </th>
+                        <td>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                    <tr id="contacts_row_4">
+                        <th>
+                            <label>Message:</label>
+                        </th>
+                        <td>
+                            <textarea name="message"></textarea>
+                        </td>
+                    </tr>
+                    <tr id="contacts_row_5">
+                        <th>
+                            <label>Reason for contact:</label>
+                        </th>
+                        <td>
+                            <select id="contact_reason_select" name="contact_reason">
+                                <option value="inquiry">Inquiry</option>
+                                <option value="business">Business</option>
+                                <option value="other" selected>Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="contacts_row_6">
+                        <th></th>
+                        <td>
+                            <input id="contact_submit_button" type="submit">
+                        </td>
+                    </tr>
+                </form>
+        </table>
+    </div>
+    </body>
+</html>

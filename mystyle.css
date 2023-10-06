@@ -1,0 +1,139 @@
+/* 
+    contact.html
+    Claudia Slater (zsl238)
+    CS4413-002 Lab #5
+    9/21/2023 
+*/
+* {
+    font-family: Helvetica, sans-serif; }
+
+body {
+    margin: 1em;
+    background-color: rgb(255, 255, 255); }
+
+th {
+    text-align: left;
+    padding-right: 1em; }
+
+h2 {
+    text-align: center; }
+
+
+div {
+    display: inline-block;
+    vertical-align: middle; }
+
+a {
+    margin-right: 1em; }
+
+a:link {
+    color:darkblue;  }
+    
+a:hover, a:visited:hover {
+    color:blue; }
+    
+a:visited {
+    color:#303d32; }
+
+.lg_text {
+    font-weight: bold;
+    font-size: large;
+    line-height: 1.5em;
+    position: relative;
+    top: 15%;
+}
+
+.med_text {
+    font-size: medium;
+    line-height: 1em;
+    position: relative;
+    top: 15%;
+}
+
+#name_header {
+    text-align: center;
+    font-size: 7em;
+    color: rgb(20, 30, 30);
+}
+
+#description_box, #schedule_box, #hobbies_box {
+    width: 30%;
+    height: 20em;
+    padding-left: 1em;
+    margin: .5em;
+    border-radius: 1em;
+    border: 2px solid #718f77; }
+
+#description_box {
+    background-color: rgb(255, 196, 232);
+    border-color: rgb(123, 33, 93); }
+
+#description_box .lg_text {
+    color:rgb(55, 7, 7); }
+
+#description_box .med_text {
+    color:rgb(66, 33, 33); }
+
+#schedule_box {
+    background-color: rgb(156, 209, 253);
+    border-color: rgb(25, 80, 97);
+    color:rgb(22, 35, 78); }
+
+#schedule_class_1, #schedule_class_2, #schedule_class_3, #schedule_class_4, #schedule_class_5 {
+    font-weight: bold; }
+
+#schedule_time_1, #schedule_time_2, #schedule_time_3, #schedule_time_4, #schedule_time_5 {
+    font-style: italic; }
+
+#hobbies_box {
+    background-color: rgb(164, 255, 157);
+    border-color: rgb(25, 83, 21);
+    color:rgb(8, 47, 5); }
+
+#page2_box {
+    background-color:#dad8fe;
+    border: 2px solid #424157;
+    color: #29293a;
+    border-radius: 1em;;
+    padding: 1em;
+    margin-top: 1em; 
+    position: relative;
+    left: 25%;
+    top: 6%; }
+
+#links_box {
+    padding-right:1em; }
+
+#portrait_img {
+    border: 2px solid rgb(32, 17, 52);
+    border-radius: 1em;
+    height: 30em;
+    opacity:90%;
+    float: right; }
+
+#contact_table {
+    background-color:#c3c3c3;
+    border: 2px solid #363636;
+    border-radius: 1em;;
+    padding: 1em;
+    margin-top: 1em; }
+
+#contacts_row_2 input, #contacts_row_3 input, #contacts_row_4 textarea, #contacts_row_5 select {
+    border-radius: .25em;
+    width: 15em; }
+
+#contact_submit_button {
+    border-color: grey;
+    border-radius: .25em;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    left: 33%; }
+
+#contacts_header {
+    float:right;
+    font-size: larger;
+    margin-bottom: 1em; }
+
+
+
+
