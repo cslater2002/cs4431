@@ -1,57 +1,15 @@
-<!-- 
-    index.html
-    Claudia Slater (zsl238)
-    CS4413-002 Lab #5
-    9/21/2023
- -->
 <html>
     <head>
-        <title> Lab 1: Home page </title>
-        <link rel="stylesheet" href="mystyle.css">
+        <title>Dr. Richards Lab 8 Starter File</title>
+        <script src="lab8.js"></script>
     </head>
     <body>
-        <a href="me.html" id="link_1">More about me</a>
-        <a href="contact.html" id="link_2">Contact</a>
-        <hr/>
-        <h1 id="name_header">Claudia Slater</h1>
-        <div>
-            <div id="description_box">
-                <p class="lg_text" id="description_text">
-                    Aspiring full stack developer 
-                    currently earning a Bachelor of Science in Computer Science 
-                    at the University of Texas at San Antonio
-                </p>
-                <p class="med_text" id="graduation_date_text">Expected graduation: May 2024</p>
-            </div>
-            <div id="schedule_box">
-                <h2 id="schedule_header">Fall 2023 Schedule</h2>
-            <ul id="schedule_list">
-                <li id="schedule_item_1">
-                    <dt id="schedule_class_1">Database Systems</dt><dd id="schedule_time_1">(MWF 12:00PM - 12:45PM)</dd>
-                </li>
-                <li id="schedule_item_2">
-                    <dt id="schedule_class_2">Web technologies</dt><dd id="schedule_time_2">(TR 8:30AM - 9:45AM)</dd>
-                </li>
-                <li id="schedule_item_3">
-                    <dt id="schedule_class_3">Operating Systems</dt><dd id="schedule_time_3">(TR 10:00AM - 11:15AM)</dd>
-                </li>
-                <li id="schedule_item_4">
-                    <dt id="schedule_class_4">User Interfaces</dt><dd id="schedule_time_4">(TR 4:00PM - 5:15PM)</dd>
-                </li>
-                <li id="schedule_item_5">
-                    <dt id="schedule_class_5">Game Development</dt><dd id="schedule_time_5">(TR 6:00PM - 7:15PM)</dd>
-                </li>
-            </ul>
-            </div>
-            <div id="hobbies_box">
-                <h2 id="hobbies_header">Hobbies</h2>
-            <ul id="hobbies_list">
-                <li id="hobbies_item_1">Knit and Crochet</li>
-                <li id="hobbies_item_2">Gaming</li>
-                <li id="hobbies_item_3">Drawing</li>
-                <li id="hobbies_item_4">Cooking and Baking</li>
-            </ul>
-            </div>
-        </div>
+        First Name: <input type="text" name="fname"><br>
+        Last Name: <input type="text" name="lname"><br>
+        <input type="button" id="ajaxCall" value="Use AJAX" onclick="getDataFromForm()">
+
+        <p id="responseString"></p>
+
     </body>
+
 </html>
